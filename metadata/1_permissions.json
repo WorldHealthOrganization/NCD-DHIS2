@@ -1,0 +1,258 @@
+{
+  "userGroups": [
+    {
+      "code": "NCD_ACC",
+      "name": "NCD - Access",
+      "created": "2023-07-28T13:13:24.227",
+      "lastUpdated": "2025-01-27T04:16:35.483",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "PMT0ZgeeFde",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "cguTF9Rggq7": {
+            "displayName": "NCD - Data Capture",
+            "access": "r-------",
+            "id": "cguTF9Rggq7"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "--------"
+      },
+      "id": "Z0TIs0OOLlY",
+      "attributeValues": [],
+      "users": [],
+      "managedGroups": []
+    },
+    {
+      "code": "NCD_ADMIN",
+      "name": "NCD - Admin",
+      "created": "2023-07-28T13:12:22.201",
+      "lastUpdated": "2025-01-27T04:17:02.208",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "PMT0ZgeeFde",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "cguTF9Rggq7": {
+            "displayName": "NCD - Data Capture",
+            "access": "r-------",
+            "id": "cguTF9Rggq7"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "--------"
+      },
+      "id": "nw6KJuPV8pS",
+      "attributeValues": [],
+      "users": [],
+      "managedGroups": []
+    },
+    {
+      "code": "NCD_DC",
+      "name": "NCD - Data Capture",
+      "created": "2023-07-28T13:12:44.912",
+      "lastUpdated": "2025-01-27T04:17:28.073",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "PMT0ZgeeFde",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "cguTF9Rggq7": {
+            "displayName": "NCD - Data Capture",
+            "access": "r-------",
+            "id": "cguTF9Rggq7"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "--------"
+      },
+      "id": "cguTF9Rggq7",
+      "attributeValues": [],
+      "users": [],
+      "managedGroups": []
+    },
+    {
+      "code": "NCD_VIZ",
+      "name": "NCD - Visualizations",
+      "created": "2023-07-28T13:13:04.057",
+      "lastUpdated": "2025-01-27T04:17:50.979",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "PMT0ZgeeFde",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "cguTF9Rggq7": {
+            "displayName": "NCD - Data Capture",
+            "access": "r-------",
+            "id": "cguTF9Rggq7"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "--------"
+      },
+      "id": "vmYcDo8Guwd",
+      "attributeValues": [],
+      "users": [],
+      "managedGroups": []
+    }
+  ],
+  "users": [
+    {
+      "created": "2024-06-06T17:09:43.599",
+      "lastUpdated": "2025-01-23T09:45:47.899",
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "username": "NCD-MD-creator",
+      "externalAuth": false,
+      "passwordLastUpdated": "2024-06-06T17:09:43.614",
+      "cogsDimensionConstraints": [],
+      "catDimensionConstraints": [],
+      "lastLogin": "2024-06-06T17:12:14.856",
+      "selfRegistered": false,
+      "invitation": false,
+      "disabled": false,
+      "surname": "Creator",
+      "firstName": "NCD-MD",
+      "email": "info@who.int",
+      "organisationUnits": [],
+      "dataViewOrganisationUnits": [],
+      "teiSearchOrganisationUnits": [],
+      "id": "PMT0ZgeeFde",
+      "attributeValues": [],
+      "userRoles": [
+        {
+          "id": "yrB6vc5Ip3r"
+        }
+      ]
+    }
+  ]
+}

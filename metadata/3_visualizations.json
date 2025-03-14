@@ -1,0 +1,3131 @@
+{
+  "dashboards": [
+    {
+      "name": "NCD - CORE Indicators Dashboard",
+      "created": "2024-07-10T13:14:50.381",
+      "lastUpdated": "2025-01-09T13:01:29.462",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "favorites": [],
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "PMT0ZgeeFde",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "rw------"
+      },
+      "layout": {
+        "columns": []
+      },
+      "itemConfig": {
+        "insertPosition": "END"
+      },
+      "restrictFilters": false,
+      "allowedFilters": [],
+      "id": "BmohrsTvL4b",
+      "dashboardItems": [
+        {
+          "created": "2024-08-01T18:36:10.336",
+          "lastUpdated": "2025-01-09T13:01:29.462",
+          "translations": [],
+          "externalAccess": false,
+          "userGroupAccesses": [],
+          "userAccesses": [],
+          "access": {
+            "manage": true,
+            "externalize": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorites": [],
+          "sharing": {
+            "external": false,
+            "users": {},
+            "userGroups": {}
+          },
+          "visualization": {
+            "id": "uvhfrdPt3iI"
+          },
+          "users": [],
+          "x": 0,
+          "y": 0,
+          "height": 35,
+          "width": 28,
+          "type": "VISUALIZATION",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "contentCount": 1,
+          "favorite": false,
+          "id": "r2GGSFtos7i",
+          "attributeValues": [],
+          "reports": [],
+          "resources": []
+        },
+        {
+          "created": "2024-08-01T18:36:10.336",
+          "lastUpdated": "2025-01-09T13:01:29.462",
+          "translations": [],
+          "externalAccess": false,
+          "userGroupAccesses": [],
+          "userAccesses": [],
+          "access": {
+            "manage": true,
+            "externalize": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorites": [],
+          "sharing": {
+            "external": false,
+            "users": {},
+            "userGroups": {}
+          },
+          "visualization": {
+            "id": "S92DapBuOvj"
+          },
+          "users": [],
+          "x": 28,
+          "y": 0,
+          "height": 35,
+          "width": 30,
+          "type": "VISUALIZATION",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "contentCount": 1,
+          "favorite": false,
+          "id": "g4MGvSWvkt0",
+          "attributeValues": [],
+          "reports": [],
+          "resources": []
+        }
+      ]
+    }
+  ],
+  "indicators": [
+    {
+      "name": "NCD - Asthma control",
+      "created": "2023-07-07T11:56:19.748",
+      "lastUpdated": "2025-01-09T13:01:21.598",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "M5zQapPyTZI",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "--------"
+      },
+      "shortName": "Asthma control",
+      "description": "Proportion of people registered for treatment of asthma with controlled asthma\n\nAsthma is controlled when none of the following are reported\n•\u0001Asthma-related events in the past six months, such as hospital admission, unplanned healthcare visit, missed school/work\n•\u0001Asthma symptoms in the past four weeks such as daytime symptoms present more than twice per week, use of short-acting β2 agonist (SABA) more than twice per week, limitation of activities or night waking",
+      "legendSets": [
+        {
+          "id": "sVYH5S8WduC"
+        }
+      ],
+      "annualized": false,
+      "decimals": 2,
+      "indicatorType": {
+        "id": "fm3Dotwjyqb"
+      },
+      "numerator": "I{c7NxRMMKcqw}",
+      "numeratorDescription": "Num",
+      "denominator": "I{lHvtTxEUFKV}",
+      "denominatorDescription": "Denom",
+      "id": "RqQ8yKybVGB",
+      "attributeValues": []
+    },
+    {
+      "name": "NCD - Availability of HPV testing",
+      "created": "2023-05-31T21:09:34.335",
+      "lastUpdated": "2025-01-09T13:01:21.598",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "M5zQapPyTZI",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "--------"
+      },
+      "shortName": "Availability of HPV testing",
+      "description": "\"Proportion of health facilities that have availability of HPV testing among facilities designated to provide screening test or to provide sampling kit\nAvailability is defined as the sampling kit is present in clinic for either provider-based testing or counseling for home self-sampling.\"",
+      "legendSets": [
+        {
+          "id": "n2fpooNDbD3"
+        }
+      ],
+      "annualized": false,
+      "decimals": 2,
+      "indicatorType": {
+        "id": "fm3Dotwjyqb"
+      },
+      "numerator": "\n\nsubExpression(\nif(\n\n#{KwigVroDOBw}.aggregationType(MIN)==1,1,0)) ",
+      "numeratorDescription": "Number of health facilities reporting availability of  HPV testing among facilities designated to provide screening test or to provide sampling kit",
+      "denominator": "R{a0egEq3UhL1.EXPECTED_REPORTS}/3",
+      "denominatorDescription": "Total number of health facilities ",
+      "id": "GVfF3WZqfNa",
+      "attributeValues": []
+    },
+    {
+      "name": "NCD - Availability of HbA1c testing",
+      "created": "2023-05-30T22:20:42.204",
+      "lastUpdated": "2025-01-09T13:01:21.598",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "M5zQapPyTZI",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "--------"
+      },
+      "shortName": "Availability of HbA1c testing",
+      "description": "Proportion of health facilities that have capability of HbA1c testing \n",
+      "legendSets": [
+        {
+          "id": "n2fpooNDbD3"
+        }
+      ],
+      "annualized": false,
+      "decimals": 2,
+      "indicatorType": {
+        "id": "fm3Dotwjyqb"
+      },
+      "numerator": "subExpression(\nif(\n\n#{aGqYD6moBl4}.aggregationType(MIN)==1,1,0 \n)) ",
+      "numeratorDescription": "Number of health facilities reporting capability of performing either laboratory or point of care HbA1c tests in the reporting period",
+      "denominator": "R{a0egEq3UhL1.EXPECTED_REPORTS}/3",
+      "denominatorDescription": "Total number of health facilities ",
+      "id": "vwE2TmzCNCC",
+      "attributeValues": []
+    },
+    {
+      "name": "NCD - Availability of a functional blood pressure measuring device",
+      "created": "2023-05-30T17:22:34.295",
+      "lastUpdated": "2025-01-09T13:01:21.598",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "M5zQapPyTZI",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "--------"
+      },
+      "shortName": "Avail functional blood pressure measuring device",
+      "description": "\"Proportion of health facilities that have access to a functional (validated and if applicable, calibrated) blood pressure measuring device (BPMD) WHO recommends accuracy validated automated or semi-automated BPMDs for clinical use.   These measure and display BP by automated or semi-automated (hand pump) inflation and deflation of a pressure cuff usually positioned on the upper arm for even compression of the brachial artery, which is the standard location for BP measurement. \n\nA validated device is one that has undergone rigorous, standardized testing against a gold standard to ensure that the device produces accurate measurements. \nCalibration is done to ensure that a BPMD measures BP accurately. This is done by testing the device against a gold standard. Automated BPMDs that are inaccurate should be sent to the manufacturer for calibration.\"\n",
+      "legendSets": [
+        {
+          "id": "n2fpooNDbD3"
+        }
+      ],
+      "annualized": false,
+      "decimals": 2,
+      "indicatorType": {
+        "id": "fm3Dotwjyqb"
+      },
+      "numerator": "subExpression(\nif(\n\n#{GMUlCFo4HGo}.aggregationType(MIN)==1,1,0)) ",
+      "numeratorDescription": "Number of health facilities that have access to a functional (validated and if applicable, calibrated) blood pressure measurement device ",
+      "denominator": "R{a0egEq3UhL1.EXPECTED_REPORTS}/3",
+      "denominatorDescription": "Total number of health facilities ",
+      "id": "Dkx1xnumpps",
+      "attributeValues": []
+    },
+    {
+      "name": "NCD - Availability of asthma core medicines",
+      "created": "2023-05-30T22:36:04.327",
+      "lastUpdated": "2025-01-09T13:01:21.598",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "M5zQapPyTZI",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "--------"
+      },
+      "shortName": "Availability of asthma core medicines",
+      "description": "Proportion of health facilities that have asthma core medicines based on WHO or national treatment guidelines\n\nAsthma core medicines may include\n•\tOxygen\n•\tSalbutamol – nebulized/inhaler\n•\tPrednisolone – oral\n•\tSteroid inhaler (beclomethasone, budesonide)\n•\tSpacer to use with inhaler",
+      "legendSets": [
+        {
+          "id": "n2fpooNDbD3"
+        }
+      ],
+      "annualized": false,
+      "decimals": 2,
+      "indicatorType": {
+        "id": "fm3Dotwjyqb"
+      },
+      "numerator": "subExpression(\nif(\n#{ikEDVkFLZuS}.aggregationType(MIN)==1 &&\n#{WGqs7DQu8za}.aggregationType(MIN)==1 &&\n#{CiKGJIGpoXT}.aggregationType(MIN)==1 &&\n#{yuM0v5eMvPc}.aggregationType(MIN)==1 &&\n\n#{O2SAuUsmA65}.aggregationType(MIN)==1,1,0)) \n\n",
+      "numeratorDescription": "Number of health facilities reporting “no stock-out” of asthma core medicines in the reporting period",
+      "denominator": "R{a0egEq3UhL1.EXPECTED_REPORTS}/3",
+      "denominatorDescription": "Total Org Units",
+      "id": "pLKllGUsjmo",
+      "attributeValues": []
+    },
+    {
+      "name": "NCD - Availability of cardiovascular disease core medicines",
+      "created": "2023-05-30T17:18:45.141",
+      "lastUpdated": "2025-01-09T13:01:21.598",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "M5zQapPyTZI",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "--------"
+      },
+      "shortName": "Avail of cardiovascular disease core medicines",
+      "description": "roportion of health facilities that have cardiovascular disease (CVD) core medicines based on WHO or national guidelines\n\nWHO recommends the following CVD core medicines: \n•\tAspirin\n•\tBeta blocker\n•\tStatin",
+      "legendSets": [
+        {
+          "id": "n2fpooNDbD3"
+        }
+      ],
+      "annualized": false,
+      "decimals": 2,
+      "indicatorType": {
+        "id": "fm3Dotwjyqb"
+      },
+      "numerator": "subExpression(\nif(\n#{Cu0eFTRLC6R}.aggregationType(MIN)==1 &&\n#{agMRbYmX959}.aggregationType(MIN)==1 &&\n#{C0U51ZQKuOn}.aggregationType(MIN)==1,1,0)) ",
+      "numeratorDescription": "Number of health facilities reporting “no stock-out” of CVD core medicines ",
+      "denominator": "R{a0egEq3UhL1.EXPECTED_REPORTS}/3",
+      "denominatorDescription": "Total number of health facilities ",
+      "id": "k1rtICmO0GA",
+      "attributeValues": []
+    },
+    {
+      "name": "NCD - Availability of chronic obstructive pulmonary disease core medicines",
+      "created": "2023-05-30T22:39:24.196",
+      "lastUpdated": "2025-01-09T13:01:21.598",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "M5zQapPyTZI",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "--------"
+      },
+      "shortName": "Availability of chronic pulmonary medicines",
+      "description": "\"Proportion of health facilities that have chronic obstructive pulmonary disease (COPD) core medicines based on WHO or national treatment guidelines\nCOPD core medicines may include\n•\tOxygen\n•\tSalbutamol – nebulized/inhaler\n•\tPrednisolone – oral\n•\tSpacer to use with inhaler\"",
+      "legendSets": [
+        {
+          "id": "n2fpooNDbD3"
+        }
+      ],
+      "annualized": false,
+      "decimals": 2,
+      "indicatorType": {
+        "id": "fm3Dotwjyqb"
+      },
+      "numerator": "\nsubExpression(\nif(\n#{O2SAuUsmA65}.aggregationType(MIN)==1 &&\n#{ikEDVkFLZuS}.aggregationType(MIN)==1 &&\n#{WGqs7DQu8za}.aggregationType(MIN)==1 &&\n#{CiKGJIGpoXT}.aggregationType(MIN)==1,1,0 \n)) ",
+      "numeratorDescription": "Number of health facilities reporting “no stock-out” of COPD core medicines in the reporting period",
+      "denominator": "R{a0egEq3UhL1.EXPECTED_REPORTS}/3",
+      "denominatorDescription": "Total Org Units",
+      "id": "DGTbe1aqAYU",
+      "attributeValues": []
+    },
+    {
+      "name": "NCD - Availability of diabetes core medicines",
+      "created": "2023-05-30T21:36:24.724",
+      "lastUpdated": "2025-01-09T13:01:21.598",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "M5zQapPyTZI",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "--------"
+      },
+      "shortName": "Availability of diabetes core medicines",
+      "description": "\"Proportion of health facilities that have diabetes core medicines based on WHO or national treatment guidelines\n\nDiabetes core medicines include\n•\tInsulin\n•\tMetformin\n•\tSulfonylurea",
+      "legendSets": [
+        {
+          "id": "n2fpooNDbD3"
+        }
+      ],
+      "annualized": false,
+      "decimals": 2,
+      "indicatorType": {
+        "id": "fm3Dotwjyqb"
+      },
+      "numerator": "subExpression(\nif(\n#{q0uKGaVHPpK}.aggregationType(MIN)==1 &&\n#{ii0ahnON67B}.aggregationType(MIN)==1 &&\n#{a0YBf0Bk9B3}.aggregationType(MIN)==1,1,0 \n)) ",
+      "numeratorDescription": "Number of health facilities reporting “no stock-out” of diabetes core medicines in the reporting period",
+      "denominator": "R{a0egEq3UhL1.EXPECTED_REPORTS}/3",
+      "denominatorDescription": "Total Org Units",
+      "id": "G9ptHtQYyxK",
+      "attributeValues": []
+    },
+    {
+      "name": "NCD - Availability of hypertension core medicines",
+      "created": "2023-05-29T13:13:32.151",
+      "lastUpdated": "2025-01-09T13:01:21.598",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "M5zQapPyTZI",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "--------"
+      },
+      "shortName": "Availability of hypertension core medicines",
+      "description": "Proportion of health facilities that have anti-hypertensive core medicines based on WHO and national treatment guidelines\n\nWHO recommends anti-hypertensive core medicines from the following classes of medications:\n•\tThiazide and thiazide-like agents \n•\tAngiotensin-converting enzyme inhibitors \n•\tAngiotensin-receptor blockers\n•\tLong-acting dihydropyridine calcium channel blockers\n\nAt least one medicine from each class needs to be available. Additional medicines may be added to the core list based on national treatment guidelines.",
+      "legendSets": [
+        {
+          "id": "n2fpooNDbD3"
+        }
+      ],
+      "annualized": false,
+      "decimals": 2,
+      "indicatorType": {
+        "id": "fm3Dotwjyqb"
+      },
+      "numerator": "subExpression(\nif(\n#{SiS4PTxvZM6}.aggregationType(MIN)==1 &&\n#{SWKsORnuYPR}.aggregationType(MIN)==1 &&\n#{qKYLEKzC3Av}.aggregationType(MIN)==1 &&\n#{WiEJigkLQb1}.aggregationType(MIN)==1,1,0)) ",
+      "numeratorDescription": "Number of health facilities reporting “no stock-out” of anti-hypertensive core medicines in the reporting period",
+      "denominator": "R{a0egEq3UhL1.EXPECTED_REPORTS}/3",
+      "denominatorDescription": "Total number of health facilities ",
+      "id": "EQaMdi2vw0O",
+      "attributeValues": []
+    },
+    {
+      "name": "NCD - Availability of plasma glucose testing",
+      "created": "2023-05-30T22:10:08.116",
+      "lastUpdated": "2025-01-09T13:01:21.598",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "M5zQapPyTZI",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "--------"
+      },
+      "shortName": "Availability of plasma glucose testing",
+      "description": "Proportion of health facilities that have capability of laboratory or point of care plasma glucose (PG) testing ",
+      "legendSets": [
+        {
+          "id": "n2fpooNDbD3"
+        }
+      ],
+      "annualized": false,
+      "decimals": 2,
+      "indicatorType": {
+        "id": "fm3Dotwjyqb"
+      },
+      "numerator": "subExpression(\nif(\n\n#{W2cHakhrc6q}.aggregationType(MIN)==1,1,0 \n)) ",
+      "numeratorDescription": "Number of health facilities reporting capability of performing either laboratory or point of care PG tests in the reporting period",
+      "denominator": "R{a0egEq3UhL1.EXPECTED_REPORTS}/3",
+      "denominatorDescription": "Total number of health facilities ",
+      "id": "u1lZK08hdvY",
+      "attributeValues": []
+    },
+    {
+      "name": "NCD - Blood pressure control among people with hypertension ",
+      "created": "2023-06-06T21:52:10.955",
+      "lastUpdated": "2025-01-09T13:01:21.598",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "M5zQapPyTZI",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "--------"
+      },
+      "shortName": "Blood pressure control people with hypertension",
+      "legendSets": [
+        {
+          "id": "KqMRO6oqUfa"
+        }
+      ],
+      "annualized": false,
+      "decimals": 1,
+      "indicatorType": {
+        "id": "fm3Dotwjyqb"
+      },
+      "numerator": "I{IuBDVDojVW4}",
+      "numeratorDescription": "Num",
+      "denominator": "I{QiNDjsO69k4}",
+      "denominatorDescription": "denom",
+      "id": "P0jSn1CrQjt",
+      "attributeValues": []
+    },
+    {
+      "name": "NCD - Cervical cancer screening among women aged 30–49 years",
+      "created": "2023-07-05T00:52:34.957",
+      "lastUpdated": "2025-01-09T13:01:13.969",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "PMT0ZgeeFde",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "rw------"
+      },
+      "shortName": "Cervical cancer screening among women aged 30-49y",
+      "description": "Proportion of women aged 30–49 years who were screened for cervical cancer using any cervical cancer screening test\nFor women with HIV, the target age group for screening is 25 to 49 years",
+      "legendSets": [
+        {
+          "id": "YBaP4BhDk6w"
+        }
+      ],
+      "annualized": false,
+      "decimals": 2,
+      "indicatorType": {
+        "id": "fm3Dotwjyqb"
+      },
+      "numerator": "I{LTTIQSY9WtW} + I{mJ7iCrGMr3I}",
+      "numeratorDescription": "Num",
+      "denominator": "I{VmiuMyec6rm}",
+      "denominatorDescription": "Denom",
+      "id": "s6JSoo02AvU",
+      "attributeValues": []
+    },
+    {
+      "name": "NCD - Cervical cancer screening test positivity among women aged 30–49 years",
+      "created": "2023-07-07T02:22:03.822",
+      "lastUpdated": "2025-01-09T13:01:13.969",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "PMT0ZgeeFde",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "rw------"
+      },
+      "shortName": "Cervical cancer screen test pos among women 30-49y",
+      "description": "Proportion of screened women aged 30–49 years with a positive screening result in the previous 12-month period using any of these methods:  Visual Inspection with Acetic Acid/vinegar (VIA), pap smear and Human Papillomavirus (HPV) test.\n",
+      "legendSets": [
+        {
+          "id": "YBaP4BhDk6w"
+        }
+      ],
+      "annualized": false,
+      "decimals": 2,
+      "indicatorType": {
+        "id": "fm3Dotwjyqb"
+      },
+      "numerator": "I{m96Ctor4UoM}",
+      "numeratorDescription": "Num",
+      "denominator": "I{sydiKSTzzg2}",
+      "denominatorDescription": "Denom",
+      "id": "K6KFWLcy7Lw",
+      "attributeValues": []
+    },
+    {
+      "name": "NCD - Cervical cancer screening with high performance test among women aged 30–49 years",
+      "created": "2023-07-04T22:41:56.465",
+      "lastUpdated": "2025-01-09T13:01:13.969",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "PMT0ZgeeFde",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "rw------"
+      },
+      "shortName": "Cerv cancer screen high perf test women 30–49y",
+      "description": "Proportion of women aged 30–49 years who were screened for cervical cancer with a high-performance test (a test which would have performance characteristics similar to or better than a HPV DNA test) \n\nFor women with HIV, the target age group for screening is 25 to 49 years`",
+      "legendSets": [
+        {
+          "id": "YBaP4BhDk6w"
+        }
+      ],
+      "annualized": false,
+      "decimals": 2,
+      "indicatorType": {
+        "id": "fm3Dotwjyqb"
+      },
+      "numerator": "I{KNcRa4NJodM}+I{VG7U4ixXUqt}",
+      "numeratorDescription": "Num",
+      "denominator": "I{hGiF1rSImeo}",
+      "denominatorDescription": "denom",
+      "id": "wC1L8AldylC",
+      "attributeValues": []
+    },
+    {
+      "name": "NCD - Chronic obstructive pulmonary disease control ",
+      "created": "2024-01-15T11:40:28.589",
+      "lastUpdated": "2025-01-09T13:01:21.598",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "M5zQapPyTZI",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "--------"
+      },
+      "shortName": "Chronic obstructive pulmonary disease control ",
+      "description": "Proportion of people registered for treatment of COPD with controlled COPD in the last visit\n\nCOPD is controlled when none of the following COPD-related events are reported in the last six months\n•\tHospital admission\n•\tUnplanned healthcare visit\n•\tMissed school/work",
+      "legendSets": [
+        {
+          "id": "sVYH5S8WduC"
+        }
+      ],
+      "annualized": false,
+      "decimals": 2,
+      "indicatorType": {
+        "id": "fm3Dotwjyqb"
+      },
+      "numerator": "I{h4IuiHxjJkQ}",
+      "numeratorDescription": "Num",
+      "denominator": "I{ZTeRhLVnq8p}",
+      "denominatorDescription": "Denom",
+      "id": "gi7VIfb8unw",
+      "attributeValues": []
+    },
+    {
+      "name": "NCD - Clinical breast evaluation for early diagnosis of breast cancer among women aged 30–49 years with signs and/or symptoms associated with breast cancer ",
+      "created": "2023-07-02T23:50:05.624",
+      "lastUpdated": "2025-01-09T13:01:21.599",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "M5zQapPyTZI",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "--------"
+      },
+      "shortName": "Clinical breast eval early diagnosis breast cancer",
+      "description": "Proportion of women aged 30 – 49 years with signs and/or symptoms associated with breast cancer who underwent an appropriate clinical breast evaluation for early diagnosis of signs and symptoms associated with breast cancer based on WHO or national guidelines\n\nClinical breast evaluation consists of 1) the taking a health history including a breast health history, and 2) the performing a physical examination including a clinical breast examination to identify persons with signs and/or symptoms of breast cancer.\n\nCommon signs and symptoms of breast cancer include a breast lump or thickening confirmed on clinical breast examination, newly developed whole breast asymmetry, skin retraction, increasing nipple retraction, spontaneous clear or bloody nipple discharge. Early breast cancer symptoms include the women’s sense of a discrete lump, thickening or localized non-migratory pain in the breast. Advanced breast cancers may exhibit skin changes with redness that over time evolves into ulceration.",
+      "legendSets": [
+        {
+          "id": "TIQdCRZNeEL"
+        }
+      ],
+      "annualized": false,
+      "decimals": 2,
+      "indicatorType": {
+        "id": "fm3Dotwjyqb"
+      },
+      "numerator": "I{PbHbmeYx7sW}",
+      "numeratorDescription": "Num",
+      "denominator": "I{niEgD9fQhYS}",
+      "denominatorDescription": "Denom",
+      "id": "IlhnyDnwMXi",
+      "attributeValues": []
+    },
+    {
+      "name": "NCD - Clinical evaluation for early cancer diagnosis among people with signs and/or symptoms associated with cancer",
+      "created": "2023-06-07T00:12:11.242",
+      "lastUpdated": "2025-01-09T13:01:21.599",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "M5zQapPyTZI",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "--------"
+      },
+      "shortName": "cancer diagnosis people with signs and/or symptoms",
+      "description": "\"Proportion of people who attended the facility with common signs and/or symptoms associated with cancers and underwent appropriate clinical evaluation for early diagnosis based on WHO or national guidelines\n\nCommon signs and symptoms of some cancers\n•\tColon and rectum: change in bowl habits, unexplained weight loss, anaemia, blood in the stool (rectal cancer)\n•\tLarynx: persistent hoarseness of voice\n•\tNaso-pharynx: nosebleed, permanent blocked nose, deafness, nodes in upper part of the neck\n•\tOral cavity: white lesions (leukoplakia) or red lesions (erythroplakia), growth or ulceration in the mouth\n•\tProstate: difficulty (long-time) in urination, frequent nocturnal urination\n•\tSkin melanoma: brown lesions that is growing irregular borders or areas of patchy coloration that may itch or bleed\n•\tOther skin cancers: lesion or sore on skin that does not heal\n•\tStomach: upper abdominal pain, recent onset of indigestion, weight loss\n•\tRetinoblastoma: white spot in the pupil, convergent strabismus (in a child)\n•\tTestis: swelling of one testicle (asymmetry)\n•\tUrinary bladder: pain, frequent and uneasy urination, blood in urine\"\n",
+      "legendSets": [
+        {
+          "id": "ewmc6xAXui9"
+        }
+      ],
+      "annualized": false,
+      "decimals": 2,
+      "indicatorType": {
+        "id": "fm3Dotwjyqb"
+      },
+      "numerator": "I{kSU6p2N00kD}",
+      "numeratorDescription": "num",
+      "denominator": "I{c6wqsb41ZPW}",
+      "denominatorDescription": "denom",
+      "id": "OHtqwpDGDo6",
+      "attributeValues": []
+    },
+    {
+      "name": "NCD - Clinical evaluation for early diagnosis of childhood cancer among children with signs and/or symptoms associated with cancer",
+      "created": "2023-07-07T11:36:25.877",
+      "lastUpdated": "2025-01-09T13:01:21.599",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "M5zQapPyTZI",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "--------"
+      },
+      "shortName": "Clin eval for early diagnos childhood cancer",
+      "description": "Proportion of children who attended the facility with signs and/or symptoms associated with childhood cancers and underwent appropriate clinical evaluation for early diagnosis based on WHO or national guidelines\n\nCommon signs and symptoms of childhood cancers \n•\tBrain tumors: persistent morning headaches and vomiting, ataxia and impaired vision\n•\tBurkitt lymphoma, neuroblastoma or Wilms’ tumor: abdominal mass associated with fever and/or weight loss\n•\tHodgkin lymphoma: abdominal mass associated with fever and/or weight loss, lymph node swelling associated with fever \n•\tLeukemia: bleeding and fever, low blood count, lymph node swelling associated with fever \n•\tOsteosarcoma or soft tissue sarcomas: bone pain, swelling of a limb without trauma\n•\tRetinoblastoma: leukocoria (white pupil)",
+      "legendSets": [
+        {
+          "id": "EGjsZBDqCVh"
+        }
+      ],
+      "annualized": false,
+      "decimals": 2,
+      "indicatorType": {
+        "id": "fm3Dotwjyqb"
+      },
+      "numerator": "I{VNyuFRHHFE0}",
+      "numeratorDescription": "Num",
+      "denominator": "I{Kf4DmQvQDSc}",
+      "denominatorDescription": "Denom",
+      "id": "xpmKyjG71gO",
+      "attributeValues": []
+    },
+    {
+      "name": "NCD - Glycaemic control among people with diabetes",
+      "created": "2023-07-04T15:49:24.730",
+      "lastUpdated": "2025-01-09T13:01:21.599",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "M5zQapPyTZI",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "--------"
+      },
+      "shortName": "Glycaemic control among people with diabetes",
+      "legendSets": [
+        {
+          "id": "YBaP4BhDk6w"
+        }
+      ],
+      "annualized": false,
+      "decimals": 2,
+      "indicatorType": {
+        "id": "fm3Dotwjyqb"
+      },
+      "numerator": "I{N9lhNJ4GCaM}",
+      "numeratorDescription": "Num",
+      "denominator": "I{NZBKIYxzwn5}",
+      "denominatorDescription": "denom",
+      "id": "AbqFKKb92Tn",
+      "attributeValues": []
+    },
+    {
+      "name": "NCD - Timeliness of referral for breast cancer diagnosis among women aged 30-49 years with signs and/or symptoms associated with breast cancer who had suspicious findings from clinical breast evaluation",
+      "created": "2023-07-03T00:40:40.212",
+      "lastUpdated": "2025-01-09T13:01:21.599",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "M5zQapPyTZI",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "--------"
+      },
+      "shortName": "Timeliness referral breast cancer diag women 30-49",
+      "description": "Proportion of women aged 30-49 years with signs and/or symptoms associated with breast cancer who had suspicious findings from clinical breast evaluation conducted at the facility and were referred to a facility with capacity for diagnosis of cancer within one month after clinical breast evaluation",
+      "legendSets": [
+        {
+          "id": "WCdFF81FgX9"
+        }
+      ],
+      "annualized": false,
+      "indicatorType": {
+        "id": "fm3Dotwjyqb"
+      },
+      "numerator": "I{BERMRkgz0nQ}",
+      "numeratorDescription": "Num",
+      "denominator": "I{Ta4J8COMSOw}",
+      "denominatorDescription": "Denom",
+      "id": "SNnpNuLdz33",
+      "attributeValues": []
+    },
+    {
+      "name": "NCD - Timeliness of referral for childhood cancer diagnosis among children with associated signs and/or symptoms of childhood cancer who had suspicious findings from clinical evaluation",
+      "created": "2023-06-07T01:31:45.082",
+      "lastUpdated": "2025-01-09T13:01:21.599",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "M5zQapPyTZI",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "--------"
+      },
+      "shortName": "childhood cancer who had suspicious findings",
+      "description": "Proportion of children with signs and/or symptoms associated with childhood cancer who had suspicious findings from clinical evaluation conducted at the facility and were referred to a center with capacity for diagnosis of cancer within one month after clinical evaluation",
+      "legendSets": [
+        {
+          "id": "WCdFF81FgX9"
+        }
+      ],
+      "annualized": false,
+      "decimals": 2,
+      "indicatorType": {
+        "id": "fm3Dotwjyqb"
+      },
+      "numerator": "I{R900TOn2ERm}",
+      "numeratorDescription": "Num",
+      "denominator": "I{TdTvPIFxxSh}",
+      "denominatorDescription": "Denom",
+      "id": "s04KIHj8tNx",
+      "attributeValues": []
+    },
+    {
+      "name": "NCD - Timely referral for cancer diagnosis among people with associated signs and/or symptoms of cancer who had suspicious findings from clinical evaluation",
+      "created": "2023-06-06T23:14:11.086",
+      "lastUpdated": "2025-01-09T13:01:21.599",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "M5zQapPyTZI",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "--------"
+      },
+      "shortName": "diagnosis among people with associated signs",
+      "description": "Proportion of people with signs and/or symptoms associated with cancer who had suspicious findings from clinical evaluation conducted at the facility and were referred to a center with capacity for diagnosis of cancer within one month after clinical evaluation",
+      "legendSets": [
+        {
+          "id": "ewmc6xAXui9"
+        }
+      ],
+      "annualized": false,
+      "decimals": 2,
+      "indicatorType": {
+        "id": "fm3Dotwjyqb"
+      },
+      "numerator": "I{Gm9FBTdWDiL}",
+      "numeratorDescription": "num",
+      "denominator": "I{oJdRXh3bPS6}",
+      "denominatorDescription": "Denom",
+      "id": "UirQeqe23Uf",
+      "attributeValues": []
+    }
+  ],
+  "legendSets": [
+    {
+      "code": "LEG_BREAST_EVAL_EARLY_DIAGNOSIS_BREAST_CANCER",
+      "name": "LEG - Clinical breast evaluation for early diagnosis of breast cancer among women aged 30–49 years with signs and/or symptoms associated with breast cancer ",
+      "created": "2023-09-20T13:29:39.484",
+      "lastUpdated": "2025-01-09T13:01:13.919",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "PMT0ZgeeFde",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "rw------"
+      },
+      "legends": [
+        {
+          "name": "Medium",
+          "created": "2023-09-25T08:01:08.960",
+          "lastUpdated": "2025-01-09T13:01:13.919",
+          "translations": [],
+          "externalAccess": false,
+          "userGroupAccesses": [],
+          "userAccesses": [],
+          "access": {
+            "manage": true,
+            "externalize": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorites": [],
+          "sharing": {
+            "external": false,
+            "users": {},
+            "userGroups": {}
+          },
+          "startValue": 50,
+          "endValue": 80,
+          "color": "#E67E22",
+          "displayName": "Medium",
+          "favorite": false,
+          "id": "NFIYtgpNjPf",
+          "attributeValues": []
+        },
+        {
+          "name": "High",
+          "created": "2023-09-25T08:01:08.961",
+          "lastUpdated": "2025-01-09T13:01:13.920",
+          "translations": [],
+          "externalAccess": false,
+          "userGroupAccesses": [],
+          "userAccesses": [],
+          "access": {
+            "manage": true,
+            "externalize": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorites": [],
+          "sharing": {
+            "external": false,
+            "users": {},
+            "userGroups": {}
+          },
+          "startValue": 80,
+          "endValue": 110,
+          "color": "#E74C3C",
+          "displayName": "High",
+          "favorite": false,
+          "id": "DCbqM8RSfrt",
+          "attributeValues": []
+        },
+        {
+          "name": "Low",
+          "created": "2023-09-25T08:01:08.961",
+          "lastUpdated": "2025-01-09T13:01:13.920",
+          "translations": [],
+          "externalAccess": false,
+          "userGroupAccesses": [],
+          "userAccesses": [],
+          "access": {
+            "manage": true,
+            "externalize": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorites": [],
+          "sharing": {
+            "external": false,
+            "users": {},
+            "userGroups": {}
+          },
+          "startValue": 0,
+          "endValue": 50,
+          "color": "#2ECC71",
+          "displayName": "Low",
+          "favorite": false,
+          "id": "veMfe5UfBdG",
+          "attributeValues": []
+        }
+      ],
+      "id": "TIQdCRZNeEL",
+      "attributeValues": []
+    },
+    {
+      "name": "LEG- Timeliness of referral for breast cancer diagnosis among women aged 30-49 years",
+      "created": "2023-09-08T16:40:00.191",
+      "lastUpdated": "2025-01-09T13:01:13.920",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "PMT0ZgeeFde",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "rw------"
+      },
+      "legends": [
+        {
+          "name": "High",
+          "created": "2023-09-25T08:08:43.845",
+          "lastUpdated": "2025-01-09T13:01:13.920",
+          "translations": [],
+          "externalAccess": false,
+          "userGroupAccesses": [],
+          "userAccesses": [],
+          "access": {
+            "manage": true,
+            "externalize": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorites": [],
+          "sharing": {
+            "external": false,
+            "users": {},
+            "userGroups": {}
+          },
+          "startValue": 80,
+          "endValue": 101,
+          "color": "#E74C3C",
+          "displayName": "High",
+          "favorite": false,
+          "id": "UNZ6a7nKvpA",
+          "attributeValues": []
+        },
+        {
+          "name": "Medium",
+          "created": "2023-09-25T08:08:43.845",
+          "lastUpdated": "2025-01-09T13:01:13.920",
+          "translations": [],
+          "externalAccess": false,
+          "userGroupAccesses": [],
+          "userAccesses": [],
+          "access": {
+            "manage": true,
+            "externalize": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorites": [],
+          "sharing": {
+            "external": false,
+            "users": {},
+            "userGroups": {}
+          },
+          "startValue": 50,
+          "endValue": 80,
+          "color": "#E67E22",
+          "displayName": "Medium",
+          "favorite": false,
+          "id": "JpGPZwebYm2",
+          "attributeValues": []
+        },
+        {
+          "name": "Low",
+          "created": "2023-09-25T08:08:43.846",
+          "lastUpdated": "2025-01-09T13:01:13.920",
+          "translations": [],
+          "externalAccess": false,
+          "userGroupAccesses": [],
+          "userAccesses": [],
+          "access": {
+            "manage": true,
+            "externalize": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorites": [],
+          "sharing": {
+            "external": false,
+            "users": {},
+            "userGroups": {}
+          },
+          "startValue": 0,
+          "endValue": 50,
+          "color": "#2ECC71",
+          "displayName": "Low",
+          "favorite": false,
+          "id": "WqdWbXAkezD",
+          "attributeValues": []
+        }
+      ],
+      "id": "WCdFF81FgX9",
+      "attributeValues": []
+    },
+    {
+      "code": "LEG_ASTHMA_CONTROL",
+      "name": "LEG-Asthma control",
+      "created": "2023-09-09T09:30:56.818",
+      "lastUpdated": "2025-01-09T13:01:13.918",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "PMT0ZgeeFde",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "rw------"
+      },
+      "legends": [
+        {
+          "name": "Low",
+          "created": "2023-09-09T09:30:56.818",
+          "lastUpdated": "2025-01-09T13:01:13.918",
+          "translations": [],
+          "externalAccess": false,
+          "userGroupAccesses": [],
+          "userAccesses": [],
+          "access": {
+            "manage": true,
+            "externalize": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorites": [],
+          "sharing": {
+            "external": false,
+            "users": {},
+            "userGroups": {}
+          },
+          "startValue": 0,
+          "endValue": 10,
+          "color": "#08FF00",
+          "displayName": "Low",
+          "favorite": false,
+          "id": "fPVj67vQFFN",
+          "attributeValues": []
+        },
+        {
+          "name": "High",
+          "created": "2023-09-09T09:30:56.819",
+          "lastUpdated": "2025-01-09T13:01:13.919",
+          "translations": [],
+          "externalAccess": false,
+          "userGroupAccesses": [],
+          "userAccesses": [],
+          "access": {
+            "manage": true,
+            "externalize": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorites": [],
+          "sharing": {
+            "external": false,
+            "users": {},
+            "userGroups": {}
+          },
+          "startValue": 10,
+          "endValue": 101,
+          "color": "#FF0000",
+          "displayName": "High",
+          "favorite": false,
+          "id": "wFz7z3eTpGq",
+          "attributeValues": []
+        }
+      ],
+      "id": "sVYH5S8WduC",
+      "attributeValues": []
+    },
+    {
+      "code": "LEG_AVAILABILITY_ASTHMA_CORE_MEDICINES",
+      "name": "LEG-Availability of asthma core medicines",
+      "created": "2023-09-09T09:28:02.907",
+      "lastUpdated": "2025-01-09T13:01:13.919",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "PMT0ZgeeFde",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "rw------"
+      },
+      "legends": [
+        {
+          "name": "High",
+          "created": "2023-09-09T09:28:02.907",
+          "lastUpdated": "2025-01-09T13:01:13.919",
+          "translations": [],
+          "externalAccess": false,
+          "userGroupAccesses": [],
+          "userAccesses": [],
+          "access": {
+            "manage": true,
+            "externalize": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorites": [],
+          "sharing": {
+            "external": false,
+            "users": {},
+            "userGroups": {}
+          },
+          "startValue": 50,
+          "endValue": 101,
+          "color": "#FF0000",
+          "displayName": "High",
+          "favorite": false,
+          "id": "io3MghqDGA0",
+          "attributeValues": []
+        },
+        {
+          "name": "Low",
+          "created": "2023-09-09T09:28:02.907",
+          "lastUpdated": "2025-01-09T13:01:13.919",
+          "translations": [],
+          "externalAccess": false,
+          "userGroupAccesses": [],
+          "userAccesses": [],
+          "access": {
+            "manage": true,
+            "externalize": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorites": [],
+          "sharing": {
+            "external": false,
+            "users": {},
+            "userGroups": {}
+          },
+          "startValue": 0,
+          "endValue": 50,
+          "color": "#08FF00",
+          "displayName": "Low",
+          "favorite": false,
+          "id": "zHKXPdUiSE6",
+          "attributeValues": []
+        }
+      ],
+      "id": "n2fpooNDbD3",
+      "attributeValues": []
+    },
+    {
+      "code": "LEG_AVAILABILITY_HYPERTENSION_CORE_MEDICINES",
+      "name": "LEG-Availability of hypertension core medicines",
+      "created": "2023-09-07T17:02:43.074",
+      "lastUpdated": "2025-01-09T13:00:32.499",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "PMT0ZgeeFde",
+        "external": false,
+        "users": {},
+        "userGroups": {},
+        "public": "rw------"
+      },
+      "legends": [
+        {
+          "name": "Low",
+          "created": "2023-09-15T09:51:17.111",
+          "lastUpdated": "2025-01-09T13:00:32.499",
+          "translations": [],
+          "externalAccess": false,
+          "userGroupAccesses": [],
+          "userAccesses": [],
+          "access": {
+            "manage": true,
+            "externalize": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorites": [],
+          "sharing": {
+            "external": false,
+            "users": {},
+            "userGroups": {}
+          },
+          "startValue": 0,
+          "endValue": 50,
+          "color": "#2ECC71",
+          "displayName": "Low",
+          "favorite": false,
+          "id": "j3b70ZvRnid",
+          "attributeValues": []
+        },
+        {
+          "name": "High",
+          "created": "2023-09-15T09:51:17.111",
+          "lastUpdated": "2025-01-09T13:00:32.500",
+          "translations": [],
+          "externalAccess": false,
+          "userGroupAccesses": [],
+          "userAccesses": [],
+          "access": {
+            "manage": true,
+            "externalize": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorites": [],
+          "sharing": {
+            "external": false,
+            "users": {},
+            "userGroups": {}
+          },
+          "startValue": 80,
+          "endValue": 100,
+          "color": "#E74C3C",
+          "displayName": "High",
+          "favorite": false,
+          "id": "IEkDsz5x6em",
+          "attributeValues": []
+        },
+        {
+          "name": "mid",
+          "created": "2023-09-15T09:51:17.111",
+          "lastUpdated": "2025-01-09T13:00:32.500",
+          "translations": [],
+          "externalAccess": false,
+          "userGroupAccesses": [],
+          "userAccesses": [],
+          "access": {
+            "manage": true,
+            "externalize": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorites": [],
+          "sharing": {
+            "external": false,
+            "users": {},
+            "userGroups": {}
+          },
+          "startValue": 50,
+          "endValue": 80,
+          "color": "#E67E22",
+          "displayName": "mid",
+          "favorite": false,
+          "id": "RiOQwAJNQ3i",
+          "attributeValues": []
+        }
+      ],
+      "id": "w1vB33ZzSKd",
+      "attributeValues": []
+    },
+    {
+      "code": "LEG_BLOOD_PRESSURE_CONTROL",
+      "name": "LEG-Blood pressure control",
+      "created": "2023-09-09T09:56:29.781",
+      "lastUpdated": "2025-01-09T13:01:13.919",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "PMT0ZgeeFde",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "rw------"
+      },
+      "legends": [
+        {
+          "name": "Low",
+          "created": "2023-09-09T09:56:29.781",
+          "lastUpdated": "2025-01-09T13:01:13.919",
+          "translations": [],
+          "externalAccess": false,
+          "userGroupAccesses": [],
+          "userAccesses": [],
+          "access": {
+            "manage": true,
+            "externalize": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorites": [],
+          "sharing": {
+            "external": false,
+            "users": {},
+            "userGroups": {}
+          },
+          "startValue": 0,
+          "endValue": 215,
+          "color": "#08FF00",
+          "displayName": "Low",
+          "favorite": false,
+          "id": "EKsmvgldz6H",
+          "attributeValues": []
+        },
+        {
+          "name": "High",
+          "created": "2023-09-09T09:56:29.781",
+          "lastUpdated": "2025-01-09T13:01:13.919",
+          "translations": [],
+          "externalAccess": false,
+          "userGroupAccesses": [],
+          "userAccesses": [],
+          "access": {
+            "manage": true,
+            "externalize": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorites": [],
+          "sharing": {
+            "external": false,
+            "users": {},
+            "userGroups": {}
+          },
+          "startValue": 215,
+          "endValue": 300,
+          "color": "#FF0000",
+          "displayName": "High",
+          "favorite": false,
+          "id": "DlJTqgCQ5x5",
+          "attributeValues": []
+        }
+      ],
+      "id": "KqMRO6oqUfa",
+      "attributeValues": []
+    },
+    {
+      "code": "LEG_CERVICAL_CANCER_SCREENING",
+      "name": "LEG-Cervical cancer screening",
+      "created": "2023-09-09T09:42:19.636",
+      "lastUpdated": "2025-01-09T13:01:13.919",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "PMT0ZgeeFde",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "rw------"
+      },
+      "legends": [
+        {
+          "name": "High",
+          "created": "2023-09-09T09:42:19.636",
+          "lastUpdated": "2025-01-09T13:01:13.919",
+          "translations": [],
+          "externalAccess": false,
+          "userGroupAccesses": [],
+          "userAccesses": [],
+          "access": {
+            "manage": true,
+            "externalize": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorites": [],
+          "sharing": {
+            "external": false,
+            "users": {},
+            "userGroups": {}
+          },
+          "startValue": 50,
+          "endValue": 101,
+          "color": "#FF0000",
+          "displayName": "High",
+          "favorite": false,
+          "id": "RY0lo8ll2aO",
+          "attributeValues": []
+        },
+        {
+          "name": "Low",
+          "created": "2023-09-09T09:42:19.636",
+          "lastUpdated": "2025-01-09T13:01:13.919",
+          "translations": [],
+          "externalAccess": false,
+          "userGroupAccesses": [],
+          "userAccesses": [],
+          "access": {
+            "manage": true,
+            "externalize": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorites": [],
+          "sharing": {
+            "external": false,
+            "users": {},
+            "userGroups": {}
+          },
+          "startValue": 0,
+          "endValue": 50,
+          "color": "#08FF00",
+          "displayName": "Low",
+          "favorite": false,
+          "id": "n1oaSRVcP1B",
+          "attributeValues": []
+        }
+      ],
+      "id": "YBaP4BhDk6w",
+      "attributeValues": []
+    },
+    {
+      "code": "LEG_CBE_EARLY_DIAGNOSIS_BREAST_CANCER",
+      "name": "LEG-Clinical breast evaluation for early diagnosis of breast cancer among women aged 30–49 years with signs and/or symptoms associated with breast cancer ",
+      "created": "2023-09-08T16:21:55.001",
+      "lastUpdated": "2025-01-09T13:01:13.920",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "PMT0ZgeeFde",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "rw------"
+      },
+      "legends": [
+        {
+          "name": "High",
+          "created": "2023-09-09T09:01:50.381",
+          "lastUpdated": "2025-01-09T13:01:13.920",
+          "translations": [],
+          "externalAccess": false,
+          "userGroupAccesses": [],
+          "userAccesses": [],
+          "access": {
+            "manage": true,
+            "externalize": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorites": [],
+          "sharing": {
+            "external": false,
+            "users": {},
+            "userGroups": {}
+          },
+          "startValue": 87,
+          "endValue": 101,
+          "color": "#FF0000",
+          "displayName": "High",
+          "favorite": false,
+          "id": "XTH6lHdWOZI",
+          "attributeValues": []
+        },
+        {
+          "name": "Low",
+          "created": "2023-09-09T09:01:50.381",
+          "lastUpdated": "2025-01-09T13:01:13.920",
+          "translations": [],
+          "externalAccess": false,
+          "userGroupAccesses": [],
+          "userAccesses": [],
+          "access": {
+            "manage": true,
+            "externalize": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorites": [],
+          "sharing": {
+            "external": false,
+            "users": {},
+            "userGroups": {}
+          },
+          "startValue": 0,
+          "endValue": 87,
+          "color": "#08FF00",
+          "displayName": "Low",
+          "favorite": false,
+          "id": "T04p5JK8iSo",
+          "attributeValues": []
+        }
+      ],
+      "id": "EGjsZBDqCVh",
+      "attributeValues": []
+    },
+    {
+      "name": "LEG-Timely referral for cancer diagnosis",
+      "created": "2023-09-09T09:51:20.836",
+      "lastUpdated": "2025-01-09T13:01:13.920",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "PMT0ZgeeFde",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-------",
+            "id": "Z0TIs0OOLlY"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rw------",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-------",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "rw------"
+      },
+      "legends": [
+        {
+          "name": "Medium",
+          "created": "2023-09-25T07:10:55.683",
+          "lastUpdated": "2025-01-09T13:01:13.920",
+          "translations": [],
+          "externalAccess": false,
+          "userGroupAccesses": [],
+          "userAccesses": [],
+          "access": {
+            "manage": true,
+            "externalize": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorites": [],
+          "sharing": {
+            "external": false,
+            "users": {},
+            "userGroups": {}
+          },
+          "startValue": 50,
+          "endValue": 89,
+          "color": "#E67E22",
+          "displayName": "Medium",
+          "favorite": false,
+          "id": "LuBDjt6XaXG",
+          "attributeValues": []
+        },
+        {
+          "name": "Low",
+          "created": "2023-09-25T07:10:55.684",
+          "lastUpdated": "2025-01-09T13:01:13.920",
+          "translations": [],
+          "externalAccess": false,
+          "userGroupAccesses": [],
+          "userAccesses": [],
+          "access": {
+            "manage": true,
+            "externalize": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorites": [],
+          "sharing": {
+            "external": false,
+            "users": {},
+            "userGroups": {}
+          },
+          "startValue": 0,
+          "endValue": 50,
+          "color": "#2ECC71",
+          "displayName": "Low",
+          "favorite": false,
+          "id": "fld4c2pjBw7",
+          "attributeValues": []
+        },
+        {
+          "name": "High",
+          "created": "2023-09-25T07:10:55.684",
+          "lastUpdated": "2025-01-09T13:01:13.920",
+          "translations": [],
+          "externalAccess": false,
+          "userGroupAccesses": [],
+          "userAccesses": [],
+          "access": {
+            "manage": true,
+            "externalize": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorites": [],
+          "sharing": {
+            "external": false,
+            "users": {},
+            "userGroups": {}
+          },
+          "startValue": 89,
+          "endValue": 101,
+          "color": "#E74C3C",
+          "displayName": "High",
+          "favorite": false,
+          "id": "IY6MOCTfMmA",
+          "attributeValues": []
+        }
+      ],
+      "id": "ewmc6xAXui9",
+      "attributeValues": []
+    },
+    {
+      "name": "Positive/Negative",
+      "created": "2024-02-07T21:32:36.578",
+      "lastUpdated": "2025-01-09T13:00:32.499",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "PMT0ZgeeFde",
+        "external": false,
+        "users": {},
+        "userGroups": {},
+        "public": "rw------"
+      },
+      "legends": [
+        {
+          "name": "Positive",
+          "created": "2024-02-07T21:32:36.578",
+          "lastUpdated": "2025-01-09T13:00:32.499",
+          "translations": [],
+          "externalAccess": false,
+          "userGroupAccesses": [],
+          "userAccesses": [],
+          "access": {
+            "manage": true,
+            "externalize": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorites": [],
+          "sharing": {
+            "external": false,
+            "users": {},
+            "userGroups": {}
+          },
+          "startValue": 1,
+          "endValue": 1,
+          "color": "#6CFF00",
+          "displayName": "Positive",
+          "favorite": false,
+          "id": "XFK0xETuFKC",
+          "attributeValues": []
+        },
+        {
+          "name": "Negative",
+          "created": "2024-02-07T21:32:36.578",
+          "lastUpdated": "2025-01-09T13:00:32.499",
+          "translations": [],
+          "externalAccess": false,
+          "userGroupAccesses": [],
+          "userAccesses": [],
+          "access": {
+            "manage": true,
+            "externalize": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorites": [],
+          "sharing": {
+            "external": false,
+            "users": {},
+            "userGroups": {}
+          },
+          "startValue": 0,
+          "endValue": 1,
+          "color": "#FF2900",
+          "displayName": "Negative",
+          "favorite": false,
+          "id": "xCUYpv324IX",
+          "attributeValues": []
+        }
+      ],
+      "id": "GrihvWDFViu",
+      "attributeValues": []
+    }
+  ],
+  "visualizations": [
+    {
+      "name": "NCD - Facility Core Indicators (Quarterly Period)",
+      "created": "2024-07-11T07:08:30.406",
+      "lastUpdated": "2025-01-09T13:01:21.661",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "favorites": [],
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "PMT0ZgeeFde",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-r-----",
+            "id": "Z0TIs0OOLlY"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rwrw----",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-r-----",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "--------"
+      },
+      "dataDimensionItems": [
+        {
+          "indicator": {
+            "id": "EQaMdi2vw0O"
+          },
+          "dataDimensionItemType": "INDICATOR"
+        },
+        {
+          "indicator": {
+            "id": "k1rtICmO0GA"
+          },
+          "dataDimensionItemType": "INDICATOR"
+        },
+        {
+          "indicator": {
+            "id": "Dkx1xnumpps"
+          },
+          "dataDimensionItemType": "INDICATOR"
+        },
+        {
+          "indicator": {
+            "id": "G9ptHtQYyxK"
+          },
+          "dataDimensionItemType": "INDICATOR"
+        },
+        {
+          "indicator": {
+            "id": "u1lZK08hdvY"
+          },
+          "dataDimensionItemType": "INDICATOR"
+        },
+        {
+          "indicator": {
+            "id": "vwE2TmzCNCC"
+          },
+          "dataDimensionItemType": "INDICATOR"
+        },
+        {
+          "indicator": {
+            "id": "pLKllGUsjmo"
+          },
+          "dataDimensionItemType": "INDICATOR"
+        },
+        {
+          "indicator": {
+            "id": "DGTbe1aqAYU"
+          },
+          "dataDimensionItemType": "INDICATOR"
+        },
+        {
+          "indicator": {
+            "id": "GVfF3WZqfNa"
+          },
+          "dataDimensionItemType": "INDICATOR"
+        }
+      ],
+      "organisationUnits": [],
+      "periods": [
+        {
+          "id": "2022Q1",
+          "name": "2022Q1"
+        },
+        {
+          "id": "2022Q2",
+          "name": "2022Q2"
+        },
+        {
+          "id": "2022Q3",
+          "name": "2022Q3"
+        },
+        {
+          "id": "2022Q4",
+          "name": "2022Q4"
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "userOrganisationUnit": true,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false,
+      "itemOrganisationUnitGroups": [],
+      "digitGroupSeparator": "SPACE",
+      "sortOrder": 0,
+      "topLimit": 0,
+      "aggregationType": "DEFAULT",
+      "completedOnly": false,
+      "skipRounding": false,
+      "hideTitle": false,
+      "hideSubtitle": false,
+      "subscribers": [],
+      "type": "PIVOT_TABLE",
+      "reportingParams": {
+        "grandParentOrganisationUnit": false,
+        "parentOrganisationUnit": false,
+        "organisationUnit": false,
+        "reportingPeriod": false
+      },
+      "columnDimensions": [
+        "pe"
+      ],
+      "rowDimensions": [
+        "dx"
+      ],
+      "filterDimensions": [
+        "ou"
+      ],
+      "rowTotals": false,
+      "colTotals": false,
+      "rowSubTotals": false,
+      "colSubTotals": false,
+      "numberType": "VALUE",
+      "regressionType": "NONE",
+      "hideEmptyRowItems": "NONE",
+      "displayDensity": "NORMAL",
+      "fontSize": "NORMAL",
+      "fontStyle": {},
+      "colorSet": "DEFAULT",
+      "yearlySeries": [],
+      "showData": true,
+      "regression": false,
+      "cumulativeValues": false,
+      "percentStackedValues": false,
+      "showHierarchy": false,
+      "showDimensionLabels": false,
+      "hideEmptyRows": false,
+      "hideEmptyColumns": false,
+      "fixColumnHeaders": false,
+      "fixRowHeaders": false,
+      "hideLegend": false,
+      "noSpaceBetweenColumns": false,
+      "id": "S92DapBuOvj",
+      "attributeValues": [],
+      "relativePeriods": {
+        "thisDay": false,
+        "yesterday": false,
+        "last3Days": false,
+        "last7Days": false,
+        "last14Days": false,
+        "last30Days": false,
+        "last60Days": false,
+        "last90Days": false,
+        "last180Days": false,
+        "thisMonth": false,
+        "lastMonth": false,
+        "thisBimonth": false,
+        "lastBimonth": false,
+        "thisQuarter": false,
+        "lastQuarter": false,
+        "thisSixMonth": false,
+        "lastSixMonth": false,
+        "weeksThisYear": false,
+        "monthsThisYear": false,
+        "biMonthsThisYear": false,
+        "quartersThisYear": false,
+        "thisYear": false,
+        "monthsLastYear": false,
+        "quartersLastYear": false,
+        "lastYear": false,
+        "last5Years": false,
+        "last10Years": false,
+        "last12Months": false,
+        "last6Months": false,
+        "last3Months": false,
+        "last6BiMonths": false,
+        "last4Quarters": false,
+        "last2SixMonths": false,
+        "thisFinancialYear": false,
+        "lastFinancialYear": false,
+        "last5FinancialYears": false,
+        "last10FinancialYears": false,
+        "thisWeek": false,
+        "lastWeek": false,
+        "thisBiWeek": false,
+        "lastBiWeek": false,
+        "last4Weeks": false,
+        "last4BiWeeks": false,
+        "last12Weeks": false,
+        "last52Weeks": false
+      },
+      "series": [],
+      "optionalAxes": [],
+      "legend": {
+        "showKey": false
+      },
+      "icons": [],
+      "seriesKey": {
+        "hidden": false
+      },
+      "axes": []
+    },
+    {
+      "name": "NCD - Patient Core Indicators (Yearly Period)",
+      "created": "2024-07-11T07:00:54.700",
+      "lastUpdated": "2025-01-09T13:01:21.669",
+      "translations": [],
+      "createdBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "favorites": [],
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "PMT0ZgeeFde",
+        "external": false,
+        "users": {},
+        "userGroups": {
+          "Z0TIs0OOLlY": {
+            "displayName": "NCD - Access",
+            "access": "r-r-----",
+            "id": "Z0TIs0OOLlY"
+          },
+          "nw6KJuPV8pS": {
+            "displayName": "NCD - Admin",
+            "access": "rwrw----",
+            "id": "nw6KJuPV8pS"
+          },
+          "vmYcDo8Guwd": {
+            "displayName": "NCD - Visualizations",
+            "access": "r-r-----",
+            "id": "vmYcDo8Guwd"
+          }
+        },
+        "public": "--------"
+      },
+      "dataDimensionItems": [
+        {
+          "indicator": {
+            "id": "P0jSn1CrQjt"
+          },
+          "dataDimensionItemType": "INDICATOR"
+        },
+        {
+          "indicator": {
+            "id": "AbqFKKb92Tn"
+          },
+          "dataDimensionItemType": "INDICATOR"
+        },
+        {
+          "indicator": {
+            "id": "RqQ8yKybVGB"
+          },
+          "dataDimensionItemType": "INDICATOR"
+        },
+        {
+          "indicator": {
+            "id": "gi7VIfb8unw"
+          },
+          "dataDimensionItemType": "INDICATOR"
+        },
+        {
+          "indicator": {
+            "id": "IlhnyDnwMXi"
+          },
+          "dataDimensionItemType": "INDICATOR"
+        },
+        {
+          "indicator": {
+            "id": "SNnpNuLdz33"
+          },
+          "dataDimensionItemType": "INDICATOR"
+        },
+        {
+          "indicator": {
+            "id": "xpmKyjG71gO"
+          },
+          "dataDimensionItemType": "INDICATOR"
+        },
+        {
+          "indicator": {
+            "id": "s04KIHj8tNx"
+          },
+          "dataDimensionItemType": "INDICATOR"
+        },
+        {
+          "indicator": {
+            "id": "OHtqwpDGDo6"
+          },
+          "dataDimensionItemType": "INDICATOR"
+        },
+        {
+          "indicator": {
+            "id": "UirQeqe23Uf"
+          },
+          "dataDimensionItemType": "INDICATOR"
+        }
+      ],
+      "organisationUnits": [],
+      "periods": [
+        {
+          "id": "2022",
+          "name": "2022"
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "userOrganisationUnit": true,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false,
+      "itemOrganisationUnitGroups": [],
+      "digitGroupSeparator": "SPACE",
+      "sortOrder": 0,
+      "topLimit": 0,
+      "aggregationType": "DEFAULT",
+      "completedOnly": false,
+      "skipRounding": false,
+      "hideTitle": false,
+      "hideSubtitle": false,
+      "subscribers": [],
+      "type": "PIVOT_TABLE",
+      "reportingParams": {
+        "grandParentOrganisationUnit": false,
+        "parentOrganisationUnit": false,
+        "organisationUnit": false,
+        "reportingPeriod": false
+      },
+      "columnDimensions": [
+        "pe"
+      ],
+      "rowDimensions": [
+        "dx"
+      ],
+      "filterDimensions": [
+        "ou"
+      ],
+      "rowTotals": false,
+      "colTotals": false,
+      "rowSubTotals": false,
+      "colSubTotals": false,
+      "numberType": "VALUE",
+      "regressionType": "NONE",
+      "hideEmptyRowItems": "NONE",
+      "displayDensity": "NORMAL",
+      "fontSize": "NORMAL",
+      "fontStyle": {},
+      "colorSet": "DEFAULT",
+      "yearlySeries": [],
+      "showData": true,
+      "regression": false,
+      "cumulativeValues": false,
+      "percentStackedValues": false,
+      "showHierarchy": false,
+      "showDimensionLabels": false,
+      "hideEmptyRows": false,
+      "hideEmptyColumns": false,
+      "fixColumnHeaders": false,
+      "fixRowHeaders": false,
+      "hideLegend": false,
+      "noSpaceBetweenColumns": false,
+      "id": "uvhfrdPt3iI",
+      "attributeValues": [],
+      "relativePeriods": {
+        "thisDay": false,
+        "yesterday": false,
+        "last3Days": false,
+        "last7Days": false,
+        "last14Days": false,
+        "last30Days": false,
+        "last60Days": false,
+        "last90Days": false,
+        "last180Days": false,
+        "thisMonth": false,
+        "lastMonth": false,
+        "thisBimonth": false,
+        "lastBimonth": false,
+        "thisQuarter": false,
+        "lastQuarter": false,
+        "thisSixMonth": false,
+        "lastSixMonth": false,
+        "weeksThisYear": false,
+        "monthsThisYear": false,
+        "biMonthsThisYear": false,
+        "quartersThisYear": false,
+        "thisYear": false,
+        "monthsLastYear": false,
+        "quartersLastYear": false,
+        "lastYear": false,
+        "last5Years": false,
+        "last10Years": false,
+        "last12Months": false,
+        "last6Months": false,
+        "last3Months": false,
+        "last6BiMonths": false,
+        "last4Quarters": false,
+        "last2SixMonths": false,
+        "thisFinancialYear": false,
+        "lastFinancialYear": false,
+        "last5FinancialYears": false,
+        "last10FinancialYears": false,
+        "thisWeek": false,
+        "lastWeek": false,
+        "thisBiWeek": false,
+        "lastBiWeek": false,
+        "last4Weeks": false,
+        "last4BiWeeks": false,
+        "last12Weeks": false,
+        "last52Weeks": false
+      },
+      "series": [],
+      "optionalAxes": [],
+      "legend": {
+        "showKey": false
+      },
+      "icons": [],
+      "seriesKey": {
+        "hidden": false
+      },
+      "axes": []
+    }
+  ],
+  "indicatorTypes": [
+    {
+      "name": "Percentage",
+      "created": "2023-05-03T22:00:16.287",
+      "lastUpdated": "2025-01-09T13:01:13.964",
+      "translations": [],
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI",
+        "code": "admin",
+        "name": "admin admin",
+        "displayName": "admin admin",
+        "username": "admin"
+      },
+      "factor": 100,
+      "number": false,
+      "id": "fm3Dotwjyqb"
+    }
+  ]
+}
